@@ -1,0 +1,73 @@
+{
+  "_from": "grunt-push-svn",
+  "_id": "grunt-push-svn@0.2.2",
+  "_inBundle": false,
+  "_integrity": "sha1-S7XAYJp/tM3IsxgrIoxOZP+VhRg=",
+  "_location": "/grunt-push-svn",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "grunt-push-svn",
+    "name": "grunt-push-svn",
+    "escapedName": "grunt-push-svn",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/grunt-push-svn/-/grunt-push-svn-0.2.2.tgz",
+  "_shasum": "4bb5c0609a7fb4cdc8b3182b228c4e64ff958518",
+  "_spec": "grunt-push-svn",
+  "_where": "/Users/revolabs/munfaird2",
+  "author": {
+    "name": "Dong",
+    "email": "ddliuhb@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ddliu/grunt-push-svn/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "async": "~0.2.9",
+    "svn-spawn": "~0.1.4"
+  },
+  "deprecated": false,
+  "description": "Push local directory to a specified SVN server",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-shell": "~0.3.1"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "homepage": "https://github.com/ddliu/grunt-push-svn",
+  "keywords": [
+    "gruntplugin"
+  ],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/ddliu/grunt-push-svn/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "name": "grunt-push-svn",
+  "peerDependencies": {
+    "grunt": ">=0.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ddliu/grunt-push-svn.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "0.2.2"
+}
